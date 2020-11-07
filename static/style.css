@@ -1,0 +1,94 @@
+#team-pic {
+      width: 100px;
+      float: center;
+      margin: 10px;
+}
+
+#center{
+  float: center;
+  margin: auto;
+  text-align: center;
+  color: #b32400;
+  font-size: 60;
+}
+
+#tableOne {
+      
+      top: 70px;
+      padding: 10px ;  
+      margin: auto;
+      text-align: center;
+      
+}
+#tableTwo {
+      
+      top: 90px;
+      padding: 10px ; 
+      margin: auto;
+      text-align: center;
+      
+}
+.pairShareOne{
+  background-color: rgb(88, 189, 214);
+}
+.pairShareTwo{
+  background-color: rgb(250, 226, 165);
+}
+
+
+#h1{
+  font-size: 29em;
+}
+
+#headerOne{
+front-size: 10px;
+}
+
+.fa{
+  font-size: 1em;
+  letter-spacing: 1em;
+  transition: all .2s;
+  color: green;
+}
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 40px;
+  display: inline-block;
+  border-radius: 100px;
+  transition: all .2s;
+  position: absolute;
+  color: #4169e1;
+  font-size: 0.75em;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 20px 40px rgba(255, 255, 255, 0.2);
+}
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(255, 255, 255, 0.2);
+}
+
+
+#col-4 {
+  font-size: 50em
+}
+
+
+#background {
+z-index:-10;
+position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+object-fit: cover;
+float: top;
+}
+

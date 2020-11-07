@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{%block content %}
+
+
+
+<p>  </p>
+
+<form method="post">
+    <table>
+        <tr>
+            <td> Username: </td> <td> <input type="text" name="numOne" required/></td>
+        </tr>
+        <tr>
+            <td> Password: </td> <td> <input type="text" name="numTwo" required/></td>
+        </tr>
+    </table>
+        <br>
+    <input class="button" type ="submit" formaction="/add" value="Enter" />
+</form>
+
+<!--<p> {{ display }}<p>-->
+
+{% for your_list_element in your_list %}
+<p>{{ your_list_element }} </p>
+{% endfor %}
+
+<div style="clear:both;"></div>
+
+{% endblock %}

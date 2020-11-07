@@ -1,0 +1,127 @@
+{% extends "base.html" %}
+
+{%block content %}
+<html>
+    <head>
+
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <style>
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  font-family: "Times New Roman", Times, serif;
+  position: absolute;
+  top: 50px;
+  left: 16px;
+  font-size:60px;
+  color:turquoise;
+
+}
+
+.top-right {
+  position: absolute;
+  top: 50px;
+  right: 16px;
+  font-size:60px;
+  color:turquoise;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size:40px;
+  color:turquoise;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  .button {
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 20px;
+  cursor: pointer;
+}
+</style>
+        </head>
+
+
+        <div>
+        <img src= "https://media1.giphy.com/media/xUPGGDNsLvqsBOhuU0/200.gif" style = "position: fill; width: 1535px; height: 650px" alt=HELLO>
+            <div class="top-left">Devam Shrivastava</div>
+            <div class="bottom-right">Period 5 Computer Science Principles</div>
+
+        </div>
+
+        <title>P5 Group ASCII Chess| Home </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/static/style.css">
+
+<!--
+    <body>
+
+    <h2>Hello?</h2>
+
+    <div class="container">
+        <img src="https://p.bigstockphoto.com/GeFvQkBbSLaMdpKXF1Zv_bigstock-Aerial-View-Of-Blue-Lakes-And--227291596.jpg" alt="Snow" style="width:100%;">
+        <div class="bottom-left">Bottom Left</div>
+        <div class="top-right">Top Right</div>
+        <div class="bottom-right">Bottom Right</div>
+        <div class="centered">Centered</div>
+    </div>
+
+    </body>
+-->
+
+
+
+
+
+    </head>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    {% block head %}
+    {% endblock %}
+  </head>
+
+
+
+
+    <body style=" background-color:black">
+
+
+        <!--<p style = "color:turquoise ; width:500px ; height:100px ; font-size:50px;">Shekar's Website</p>-->
+        <h1 style = "color:blue ; height:45px ; margin-left:auto ; margin-right:auto ; width:900px ; font-size:40px;" > Link to group project plan: <a target = "_blank" href="https://docs.google.com/document/d/1ktGsDPl07wBa6YQvsGDCKAi1Bpz_exLEj0Y3ASh-fK0/edit"> Project OK</a></h1>
+        <h1 style = "color:red ; height:45px ; margin-left:auto ; margin-right:auto ; width:900px ; font-size:40px;" > Link to group project github: <a target = "_blank" href="https://docs.google.com/document/d/1ktGsDPl07wBa6YQvsGDCKAi1Bpz_exLEj0Y3ASh-fK0/edit"> Project OK</a></h1>
+        <h1 style = "color:white ; height:45px ; margin-left:auto ; margin-right:auto ; width:900px ; font-size:40px;" > Link to individual website github: <a target = "_blank" href="https://docs.google.com/document/d/1ktGsDPl07wBa6YQvsGDCKAi1Bpz_exLEj0Y3ASh-fK0/edit"> Project OK</a></h1>
+
+
+
+
+    </body>      
+{% endblock %}
